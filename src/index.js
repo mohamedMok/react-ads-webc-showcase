@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "@mozaic-ds/mozaic-web-components/public/adeo/bundle.js";
+import "@mozaic-ds/mozaic-web-components/public/icons.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
