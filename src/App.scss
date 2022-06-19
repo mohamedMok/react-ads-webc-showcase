@@ -1,0 +1,79 @@
+@import "settings-tools/all-settings";
+.example {
+  margin: $mu200;
+  padding: $mu300;
+  background-color: $color-grey-000;
+  border-radius: get-border-radius("l");
+}
+
+.items {
+  display: flex;
+  gap: $mu200;
+  margin-bottom: $mu300;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form-item {
+  width: 40%;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 $mu200 $mu200;
+  background-color: $color-grey-000;
+  height: $mu600;
+}
+.sub-title {
+  padding-left: $mu200;
+}
+
+@import 'settings-tools/all-settings';
+@import 'components/_c.divider';
+
+@font-face {
+  font-family: Leroy Merlin;
+  src: url(assets/Roboto/Roboto-Medium.ttf) format("ttf");
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: $color-secondary-blue-100;
+}
+.header {
+  background-color: $color-primary-01-300;
+  height: 2.375rem;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 2rem;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  height: 25rem;
+  color: white;
+  background-color: $color-secondary-blue-900;
+  font-weight: 300;
+  font-size: 59px;
+  line-height: 80px;
+  padding-left: $mu200;
+}
+
+.theming {
+  background-color: $color-grey-000;
+  padding: $mu200;
+}
+
+.notif {
+  background-color: $color-grey-000;
+  padding: $mu200;
+}

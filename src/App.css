@@ -1,3 +1,4 @@
+@import 'settings-tools/all-settings';
 .example {
   display: flex;
   justify-content: space-around;
